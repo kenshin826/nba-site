@@ -40,3 +40,14 @@ body {
     font-family: "Barlow Condensed", sans-serif;
 }
 
+.stats {
+    background: #14213d;
+    color: white;
+    border-collapse: collapse;
+}
+
+
+.stats th,
+.stats td {
+    padding: 12px 20px;
+}
