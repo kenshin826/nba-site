@@ -2,9 +2,13 @@
     background: #14213d;
     padding: 16px;
     border-radius: 8px;
-    margin-bottom: 15px;
+    transition: background 0.2s, transform 0.2s;
 }
 
+.game-card:hover {
+    background: #1f3560;
+    transform: scale(1.03);
+}
 
 .game-title {
     color: white;
