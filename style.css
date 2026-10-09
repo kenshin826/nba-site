@@ -1,5 +1,5 @@
 .game-card {
-    background: #1d1160;
+    background: #14213d;
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -13,7 +13,7 @@
 
 
 .game-time {
-    color: yellow;
+    color: orange;
     font-weight: bold;
 }
 
@@ -21,4 +21,10 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+}
+
+body {
+    background: #e8c9a0;
+    margin: 0;
+    padding: 24px;
 }
