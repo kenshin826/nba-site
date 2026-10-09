@@ -15,5 +15,10 @@
 .game-time {
     color: yellow;
     font-weight: bold;
+}
 
+.schedule {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
 }
