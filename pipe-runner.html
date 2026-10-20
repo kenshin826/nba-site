@@ -1206,7 +1206,7 @@ $('playBtn').addEventListener('click', () => startGame(1));
 $('againBtn').addEventListener('click', () => startGame(1));
 $('resumeBtn').addEventListener('click', resumeGame);
 $('restartBtn').addEventListener('click', () => { initAudio(); checkpoint = false; startLevel(false, false); });
-$('pauseBtn').addEventListener('click', () => { if (state === 'play') pauseGame(); else if (state === 'paused') resumeGame(); });
+$('pauseBtn').addEventListener('pointerdown', e => { e.preventDefault(); if (state === 'play') pauseGame(); else if (state === 'paused') resumeGame(); });
 $('soundBtn').addEventListener('click', () => { initAudio(); setMuted(!muted); });
 $('sound2Btn').addEventListener('click', () => { initAudio(); setMuted(!muted); });
 
